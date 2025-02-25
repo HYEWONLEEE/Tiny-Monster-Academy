@@ -1,0 +1,1250 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 8025 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity_study/Tiny Monster Academy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57331
+-job-worker-count
+1
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Unity_study/Tiny Monster Academy
+D:/Unity_study/Tiny Monster Academy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9672]  Target information:
+
+Player connection [9672]  * "[IP] 192.168.219.218 [Port] 0 [Flags] 2 [Guid] 2776193846 [EditorId] 2776193846 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-064UGMB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9672] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9672] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 19.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_study/Tiny Monster Academy/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4012 MB
+    Driver:   23.20.16.4849
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.027966 seconds.
+- Loaded All Assemblies, in  2.113 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1119 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.569 seconds
+Domain Reload Profiling: 5673ms
+	BeginReloadAssembly (993ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (162ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (203ms)
+	LoadAllAssembliesAndSetupDomain (689ms)
+		LoadAssemblies (974ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (675ms)
+			TypeCache.Refresh (671ms)
+				TypeCache.ScanAssembly (608ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3401ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1453ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (19ms)
+			ProcessInitializeOnLoadAttributes (822ms)
+			ProcessInitializeOnLoadMethodAttributes (545ms)
+			AfterProcessingInitializeOnLoad (551ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.518 seconds
+Refreshing native plugins compatible for Editor in 16.58 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 10.898 seconds
+Domain Reload Profiling: 17401ms
+	BeginReloadAssembly (2102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (118ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (4152ms)
+		LoadAssemblies (2266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2316ms)
+			TypeCache.Refresh (1721ms)
+				TypeCache.ScanAssembly (1608ms)
+			BuildScriptInfoCaches (517ms)
+			ResolveRequiredComponents (63ms)
+	FinalizeReload (10899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (190ms)
+			SetLoadedEditorAssemblies (24ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (6319ms)
+			ProcessInitializeOnLoadMethodAttributes (471ms)
+			AfterProcessingInitializeOnLoad (75ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (115ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 20.19 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 236 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6159 unused Assets / (6.5 MB). Loaded Objects now: 6970.
+Memory consumption went from 189.4 MB to 182.8 MB.
+Total: 56.303000 ms (FindLiveObjects: 2.039200 ms CreateObjectMapping: 2.448700 ms MarkObjects: 40.639400 ms  DeleteObjects: 11.172300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 756837.510388 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(75b2fd9cd04c94e7693616260cd451f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(75b2fd9cd04c94e7693616260cd451f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5221c5f654ded9c4debe0c00ce9f6f0') in 0.0193628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2171.234510 seconds.
+  path: Assets/Scripts/Managers
+  artifactKey: Guid(641de42b78b99064f949c09d93e4cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers using Guid(641de42b78b99064f949c09d93e4cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4ddab62417e309bd5e272b40e128307') in 0.0152511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.37 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6129 unused Assets / (5.8 MB). Loaded Objects now: 6973.
+Memory consumption went from 152.4 MB to 146.6 MB.
+Total: 460.413500 ms (FindLiveObjects: 6.692100 ms CreateObjectMapping: 10.945400 ms MarkObjects: 431.702900 ms  DeleteObjects: 11.070200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.903412 seconds.
+  path: Assets/Scripts/Managers/GameManager.cs
+  artifactKey: Guid(db4a11df7e54bc742b6956bbcf2042f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/GameManager.cs using Guid(db4a11df7e54bc742b6956bbcf2042f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ca35e0f0e5f94a58f5beaca67f725d3') in 0.0080581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in 53.841 seconds
+Refreshing native plugins compatible for Editor in 15.00 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  8.797 seconds
+Domain Reload Profiling: 62608ms
+	BeginReloadAssembly (3901ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (173ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (736ms)
+	RebuildCommonClasses (159ms)
+	RebuildNativeTypeToScriptingClass (176ms)
+	initialDomainReloadingComplete (395ms)
+	LoadAllAssembliesAndSetupDomain (49180ms)
+		LoadAssemblies (48955ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1481ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (1219ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (8799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5189ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (250ms)
+			ProcessInitializeOnLoadAttributes (4441ms)
+			ProcessInitializeOnLoadMethodAttributes (364ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (81ms)
+Refreshing native plugins compatible for Editor in 14.28 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6156 unused Assets / (7.0 MB). Loaded Objects now: 6989.
+Memory consumption went from 166.7 MB to 159.7 MB.
+Total: 40.072900 ms (FindLiveObjects: 1.437900 ms CreateObjectMapping: 1.953800 ms MarkObjects: 27.305900 ms  DeleteObjects: 9.371500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in  3.791 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  9.200 seconds
+Domain Reload Profiling: 12987ms
+	BeginReloadAssembly (723ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (212ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (2872ms)
+		LoadAssemblies (1405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1768ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1703ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (9202ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (347ms)
+			ProcessInitializeOnLoadAttributes (5490ms)
+			ProcessInitializeOnLoadMethodAttributes (303ms)
+			AfterProcessingInitializeOnLoad (55ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (152ms)
+Refreshing native plugins compatible for Editor in 81.38 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6156 unused Assets / (8.6 MB). Loaded Objects now: 6991.
+Memory consumption went from 164.8 MB to 156.1 MB.
+Total: 98.483400 ms (FindLiveObjects: 4.227900 ms CreateObjectMapping: 7.444400 ms MarkObjects: 57.553600 ms  DeleteObjects: 29.251300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 131.350923 seconds.
+  path: Assets/Scripts/Administrator
+  artifactKey: Guid(641de42b78b99064f949c09d93e4cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator using Guid(641de42b78b99064f949c09d93e4cda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd13ef55911aae08df3017ff74cd104f1') in 0.0237741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/Administrator/GameManager.cs
+  artifactKey: Guid(db4a11df7e54bc742b6956bbcf2042f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator/GameManager.cs using Guid(db4a11df7e54bc742b6956bbcf2042f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d560c40ac6a4c240e96bf8025b20f5') in 0.0037127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 118.15 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6128 unused Assets / (4.2 MB). Loaded Objects now: 6991.
+Memory consumption went from 164.8 MB to 160.6 MB.
+Total: 108.114900 ms (FindLiveObjects: 2.359900 ms CreateObjectMapping: 3.791600 ms MarkObjects: 71.503200 ms  DeleteObjects: 30.457600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 204.585887 seconds.
+  path: Assets/Scripts/Administrator/GameManager.cs
+  artifactKey: Guid(db4a11df7e54bc742b6956bbcf2042f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator/GameManager.cs using Guid(db4a11df7e54bc742b6956bbcf2042f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f0d85f46ba9af45a493536b8070f432') in 0.2803514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in  2.994 seconds
+Refreshing native plugins compatible for Editor in 39.66 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  6.342 seconds
+Domain Reload Profiling: 9336ms
+	BeginReloadAssembly (1264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (203ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1467ms)
+		LoadAssemblies (1094ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (778ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (720ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (6344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4380ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (3568ms)
+			ProcessInitializeOnLoadMethodAttributes (431ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (93ms)
+Refreshing native plugins compatible for Editor in 15.59 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6156 unused Assets / (6.8 MB). Loaded Objects now: 6993.
+Memory consumption went from 164.8 MB to 158.0 MB.
+Total: 36.647500 ms (FindLiveObjects: 1.962300 ms CreateObjectMapping: 2.073300 ms MarkObjects: 25.809400 ms  DeleteObjects: 6.799500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.11 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6129 unused Assets / (6.8 MB). Loaded Objects now: 6994.
+Memory consumption went from 164.8 MB to 158.0 MB.
+Total: 38.128000 ms (FindLiveObjects: 1.459500 ms CreateObjectMapping: 1.863100 ms MarkObjects: 27.929600 ms  DeleteObjects: 6.873300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 540.455634 seconds.
+  path: Assets/Scripts/Administrator/DataManager.cs
+  artifactKey: Guid(7207fd499c88cc24dabd5d85e5119460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator/DataManager.cs using Guid(7207fd499c88cc24dabd5d85e5119460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6eeeba78b17f2fd7167c7c8acc81b4f') in 0.0418666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.47 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6129 unused Assets / (3.6 MB). Loaded Objects now: 6994.
+Memory consumption went from 164.8 MB to 161.2 MB.
+Total: 53.000600 ms (FindLiveObjects: 1.222000 ms CreateObjectMapping: 1.819900 ms MarkObjects: 43.980300 ms  DeleteObjects: 5.976300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.926435 seconds.
+  path: Assets/Scripts/Administrator/DataManager.cs
+  artifactKey: Guid(7207fd499c88cc24dabd5d85e5119460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator/DataManager.cs using Guid(7207fd499c88cc24dabd5d85e5119460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6eeeba78b17f2fd7167c7c8acc81b4f') in 0.0085355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in 11.583 seconds
+Refreshing native plugins compatible for Editor in 9.85 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  8.453 seconds
+Domain Reload Profiling: 20026ms
+	BeginReloadAssembly (4710ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (384ms)
+	RebuildCommonClasses (255ms)
+	RebuildNativeTypeToScriptingClass (148ms)
+	initialDomainReloadingComplete (315ms)
+	LoadAllAssembliesAndSetupDomain (6142ms)
+		LoadAssemblies (8217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1813ms)
+			TypeCache.Refresh (64ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (1625ms)
+			ResolveRequiredComponents (57ms)
+	FinalizeReload (8456ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (221ms)
+			ProcessInitializeOnLoadAttributes (4937ms)
+			ProcessInitializeOnLoadMethodAttributes (922ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (75ms)
+Refreshing native plugins compatible for Editor in 16.05 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6158 unused Assets / (5.9 MB). Loaded Objects now: 6997.
+Memory consumption went from 164.8 MB to 158.9 MB.
+Total: 48.059700 ms (FindLiveObjects: 1.375900 ms CreateObjectMapping: 1.706100 ms MarkObjects: 37.253300 ms  DeleteObjects: 7.719500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.55 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6130 unused Assets / (4.9 MB). Loaded Objects now: 6997.
+Memory consumption went from 164.8 MB to 160.0 MB.
+Total: 62.647400 ms (FindLiveObjects: 1.446600 ms CreateObjectMapping: 2.055700 ms MarkObjects: 37.330400 ms  DeleteObjects: 21.812100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in  4.103 seconds
+Refreshing native plugins compatible for Editor in 10.34 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.799 seconds
+Domain Reload Profiling: 9901ms
+	BeginReloadAssembly (1743ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (388ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (2165ms)
+		LoadAssemblies (1859ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (906ms)
+			TypeCache.Refresh (30ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (837ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (5801ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3896ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (289ms)
+			ProcessInitializeOnLoadAttributes (3322ms)
+			ProcessInitializeOnLoadMethodAttributes (193ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (63ms)
+Refreshing native plugins compatible for Editor in 19.13 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6158 unused Assets / (6.8 MB). Loaded Objects now: 6999.
+Memory consumption went from 164.8 MB to 158.0 MB.
+Total: 43.976400 ms (FindLiveObjects: 1.361900 ms CreateObjectMapping: 3.208500 ms MarkObjects: 29.792800 ms  DeleteObjects: 9.610100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 78.244941 seconds.
+  path: Assets/Scripts/Administrator/EconomyManage.cs
+  artifactKey: Guid(7543da2a996dc484abbae4f7ed304792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator/EconomyManage.cs using Guid(7543da2a996dc484abbae4f7ed304792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '360fd7a2acacc29817b28cd6174773b1') in 0.0080501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.35 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6129 unused Assets / (6.7 MB). Loaded Objects now: 6998.
+Memory consumption went from 164.8 MB to 158.1 MB.
+Total: 40.473100 ms (FindLiveObjects: 4.209600 ms CreateObjectMapping: 2.189000 ms MarkObjects: 27.106900 ms  DeleteObjects: 6.965800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in  2.683 seconds
+Refreshing native plugins compatible for Editor in 7.93 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  6.287 seconds
+Domain Reload Profiling: 8969ms
+	BeginReloadAssembly (981ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (152ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (1534ms)
+		LoadAssemblies (986ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (815ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (758ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (6288ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3781ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (242ms)
+			ProcessInitializeOnLoadAttributes (3237ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (91ms)
+Refreshing native plugins compatible for Editor in 13.50 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6157 unused Assets / (7.0 MB). Loaded Objects now: 7000.
+Memory consumption went from 164.8 MB to 157.9 MB.
+Total: 48.059900 ms (FindLiveObjects: 1.688900 ms CreateObjectMapping: 2.286800 ms MarkObjects: 33.386200 ms  DeleteObjects: 10.694500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 11.33 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6130 unused Assets / (6.8 MB). Loaded Objects now: 7001.
+Memory consumption went from 164.8 MB to 158.0 MB.
+Total: 32.103000 ms (FindLiveObjects: 1.250200 ms CreateObjectMapping: 1.746500 ms MarkObjects: 22.282400 ms  DeleteObjects: 6.822200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.116517 seconds.
+  path: Assets/Scripts/Administrator/EconomyManager.cs
+  artifactKey: Guid(f2a4d6dc6846fbe47ac35a1462a50a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator/EconomyManager.cs using Guid(f2a4d6dc6846fbe47ac35a1462a50a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9373578d00b750138cce70e0e615d74e') in 0.0693692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in  2.906 seconds
+Refreshing native plugins compatible for Editor in 14.47 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  7.488 seconds
+Domain Reload Profiling: 10381ms
+	BeginReloadAssembly (993ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (144ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (1659ms)
+		LoadAssemblies (1285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (639ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (580ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (7489ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4846ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (4287ms)
+			ProcessInitializeOnLoadMethodAttributes (229ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (86ms)
+Refreshing native plugins compatible for Editor in 15.75 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6158 unused Assets / (7.3 MB). Loaded Objects now: 7003.
+Memory consumption went from 164.8 MB to 157.6 MB.
+Total: 44.912000 ms (FindLiveObjects: 1.409900 ms CreateObjectMapping: 2.817800 ms MarkObjects: 30.105400 ms  DeleteObjects: 10.576200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.936574 seconds.
+  path: Assets/Scripts/Administrator/EconomyManager.cs
+  artifactKey: Guid(f2a4d6dc6846fbe47ac35a1462a50a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Administrator/EconomyManager.cs using Guid(f2a4d6dc6846fbe47ac35a1462a50a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70cadfcca45643562fb167126b51ca5a') in 0.007103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.18 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6130 unused Assets / (3.8 MB). Loaded Objects now: 7003.
+Memory consumption went from 164.9 MB to 161.1 MB.
+Total: 426.722400 ms (FindLiveObjects: 1.928500 ms CreateObjectMapping: 2.480500 ms MarkObjects: 415.044900 ms  DeleteObjects: 7.265900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1411.476515 seconds.
+  path: Assets/Scripts/PlayerInfromation/PlayerData.cs
+  artifactKey: Guid(11293d047934c20419fb1b80b8801236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInfromation/PlayerData.cs using Guid(11293d047934c20419fb1b80b8801236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f8adac7a6cc89f6867b1d555dcf4662') in 0.0050972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 40.16 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6130 unused Assets / (6.6 MB). Loaded Objects now: 7003.
+Memory consumption went from 164.9 MB to 158.2 MB.
+Total: 58.109500 ms (FindLiveObjects: 2.631900 ms CreateObjectMapping: 2.801600 ms MarkObjects: 38.407700 ms  DeleteObjects: 14.264300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModeler.Hub.HubAnalytics.OnRelease (System.Boolean isReloading) [0x00019] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Analytics.AnalyticsBase.Release (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.Hub.HubAnalyticsService.OnRelease (System.Boolean isReloading) [0x00000] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at Tripolygon.UModeler.UI.ApplicationServiceBase.Application_Released (System.Object sender, Tripolygon.UModeler.UI.ApplicationReleasedEventArgs e) [0x00007] in <159130425f56417cbca82612c40bba34>:0 
+  at (wrapper delegate-invoke) System.EventHandler`1[Tripolygon.UModeler.UI.ApplicationReleasedEventArgs].invoke_void_object_TEventArgs(object,Tripolygon.UModeler.UI.ApplicationReleasedEventArgs)
+  at Tripolygon.UModeler.UI.Application.Release (System.Boolean isReloading) [0x0005f] in <159130425f56417cbca82612c40bba34>:0 
+  at Tripolygon.UModeler.Editor.UI.UnityEditorApplication+<>c.<.cctor>b__5_1 () [0x00029] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5fdc1eeb2a4f39b26caadc7b79ec7e>:0 
+
+- Loaded All Assemblies, in  5.152 seconds
+Refreshing native plugins compatible for Editor in 12.14 ms, found 5 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Tripolygon.UModelerX.Editor.Models.UMPropertyDescriptorDefaultMaterial..cctor () [0x00014] in <418ee9ad6d664e05afcafa12c355085f>:0 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Models.UMPropertyDescriptor.CreateDescriptor (System.Reflection.PropertyInfo propertyInfo) [0x00067] in <6995753bba9942edbb4de03062d66acb>:0 
+  at Tripolygon.UModeler.Models.UMPropertyContext.GetPureDescriptors (System.Object obj) [0x0007e] in <6995753bba9942edbb4de03062d66acb>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetPureDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:GetDescriptors (object)
+Tripolygon.UModeler.Models.UMPropertyContext:.ctor (object,Tripolygon.UModeler.Models.IPropertySerializer)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings/<>c:<.ctor>b__0_4 (System.Type)
+System.Linq.Utilities/<>c__DisplayClass2_0`3<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, System.Type, Tripolygon.UModeler.Models.UMPropertyContext>:<CombineSelectors>b__0 (<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>)
+System.Linq.Enumerable/WhereSelectEnumerableIterator`2<<>f__AnonymousType0`2<System.Reflection.Assembly, System.Type>, Tripolygon.UModeler.Models.UMPropertyContext>:ToArray ()
+System.Linq.Enumerable:ToArray<Tripolygon.UModeler.Models.UMPropertyContext> (System.Collections.Generic.IEnumerable`1<Tripolygon.UModeler.Models.UMPropertyContext>)
+Tripolygon.UModeler.Editor.UI.ApplicationSettings:.ctor ()
+Tripolygon.UModeler.Editor.UI.ApplicationSettingsProvider:.cctor ()
+System.Reflection.RuntimeConstructorInfo:InternalInvoke (object,object[],bool)
+System.RuntimeType:CreateInstanceMono (bool,bool)
+System.RuntimeType:CreateInstanceSlow (bool,bool,bool,bool)
+System.RuntimeType:CreateInstanceDefaultCtor (bool,bool,bool,bool,System.Threading.StackCrawlMark&)
+System.Activator:CreateInstance (System.Type,bool,bool)
+System.Activator:CreateInstance (System.Type,bool)
+System.Activator:CreateInstance (System.Type)
+Tripolygon.UModeler.UI.ApplicationServiceCollection:.ctor (Tripolygon.UModeler.UI.Application)
+Tripolygon.UModeler.UI.Application:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.ctor ()
+Tripolygon.UModeler.Editor.UI.UnityEditorApplication:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+

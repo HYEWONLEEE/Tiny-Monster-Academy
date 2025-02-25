@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity_study\\Tiny Monster Academy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|d:\\unity_study\\tiny monster academy\\assets\\scripts\\playerinfromation\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinfromation\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|d:\\unity_study\\tiny monster academy\\assets\\scripts\\administrator\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\administrator\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|d:\\unity_study\\tiny monster academy\\assets\\scripts\\administrator\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\administrator\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:35:32.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EconomyManager.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:26:50.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Administrator\\GameManager.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Administrator\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:11:54.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

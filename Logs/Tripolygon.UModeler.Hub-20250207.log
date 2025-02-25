@@ -1,0 +1,286 @@
+[2025-02-07 오후 3:46:18] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 3:46:18] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 3:46:18] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 3:46:18] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-07 오후 3:46:18] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-07 오후 3:46:18] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-07 오후 3:46:18] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 3:46:19] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 3:46:26] [Debug] [Application] Initialize: isReloading=False
+[2025-02-07 오후 3:46:26] [Information] [Authentication] Request TraceId=0b1578408e7e4e8282ab3469c016e576, Uri=https://api.umodeler.com/identity/api/v1/auth/verify
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 3:46:26] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 3:46:26] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 3:46:50] [Debug] [HubAnalytics] OnAppStart
+[2025-02-07 오후 3:46:50] [Debug] [Authentication] SignedIn
+[2025-02-07 오후 3:46:50] [Information] [Authentication] Request TraceId=f9a5a1f0cf8742899d602e9cb3855b63, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerHub/version?branch=main
+[2025-02-07 오후 3:46:50] [Debug] [HubAnalytics] OnSignIn
+[2025-02-07 오후 3:46:51] [Information] [Authentication] Request TraceId=c146efb66a3b41d8a5ef23a7ea946b16, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=basic
+[2025-02-07 오후 3:46:52] [Information] [Authentication] Request TraceId=cdb187ff66514f7681374d7d374be392, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=plus
+[2025-02-07 오후 3:46:52] [Information] [Authentication] Request TraceId=6c49eb115c5b4a2088f3f0513af48f74, Uri=https://api.umodeler.com/identity/api/v1/hub/info
+[2025-02-07 오후 3:46:53] [Information] [Authentication] Request TraceId=6ee14737c2ba4943971f4d2219209847, Uri=https://api.umodeler.com/resources/api/v1/resources/user-resources?c=ko&current=1&pageSize=20
+[2025-02-07 오후 3:46:54] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnMessagePropertyValidate'.
+[2025-02-07 오후 3:46:54] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnIDPropertyValidate'.
+[2025-02-07 오후 3:46:54] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnTagPropertyValidate'.
+[2025-02-07 오후 3:46:54] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnIsDisplayableAgainPropertyValidate'.
+[2025-02-07 오후 3:46:56] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"app start","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1","platform_account_id":"anonymous","platform_account_name":"Giy2jkhExSmehBCErOkXM/2eA7fVJZMByLpNVKHguEliHvleN35H/93OnikEujGODaTiiCDyeyt6yo6p4yzToeAw5ib2PXwBkF3alIVpYWXQ1vlF3jwbmk0qX+jdIKXBxwgsUVxl/EiVUwpN+DNariCtjRdrqsPloA0Qf8QsFQCuqRNE3VDaqDbWwXgi0W3Yoqre8cJCPrgCZKu+L/WNmABVXUO0qKKKdipgZyyCu12BB/N9DOswLjFZ37sHpSoIwZTPZl8MZwEDT/g8LD6Eyfd1khbDA5zZu5paF8DsGMPwsr2AFlEDbtQO7ENrQXUoySECBsc9Z6s8t2K5EMmK1A=="},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"6cb29cde-5704-4fbc-9910-cdeda1d06393_e0ca689e-3584-442a-80ef-98a5b7292ad7","distinct_id":"3233827edcb867f6b4b10f2975c364aa3e4bef21","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T06:46:50.4157156Z"},{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1","product_user_email":"a01092099573@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"6cb29cde-5704-4fbc-9910-cdeda1d06393_e0ca689e-3584-442a-80ef-98a5b7292ad7","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T06:46:50.5766446Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"6cb29cde-5704-4fbc-9910-cdeda1d06393_e0ca689e-3584-442a-80ef-98a5b7292ad7","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T06:46:50.5776395Z"}]}
+[2025-02-07 오후 3:46:57] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 3 queue item(s).
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:04:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:04:59] [Debug] [Application] Initialize: isReloading=False
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:04:59] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:04:59] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:10:03] [Debug] [Application] Release: isReloading=False
+[2025-02-07 오후 4:10:03] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:10:03] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:10:03] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:10:03] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:10:03] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:10:03] [Debug] [HubAnalytics] OnAppEnd
+[2025-02-07 오후 4:10:03] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2025-02-07 오후 4:10:03] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"app end","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"6cb29cde-5704-4fbc-9910-cdeda1d06393_e0ca689e-3584-442a-80ef-98a5b7292ad7","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T07:10:03.6956724Z"}]}
+[2025-02-07 오후 4:10:04] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 1 queue item(s).
+[2025-02-07 오후 4:10:04] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:10:04] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:10:04] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:10:04] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:10:04] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:10:04] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:11:01] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:11:08] [Debug] [Application] Initialize: isReloading=False
+[2025-02-07 오후 4:11:09] [Information] [Authentication] Request TraceId=47e6a90d1dc448e39c6e8c99c55cbb26, Uri=https://api.umodeler.com/identity/api/v1/auth/verify
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:11:09] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:11:09] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:11:28] [Debug] [HubAnalytics] OnAppStart
+[2025-02-07 오후 4:11:29] [Debug] [Authentication] SignedIn
+[2025-02-07 오후 4:11:29] [Information] [Authentication] Request TraceId=264718d2776949b39cee3af42a7a95af, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerHub/version?branch=main
+[2025-02-07 오후 4:11:29] [Debug] [HubAnalytics] OnSignIn
+[2025-02-07 오후 4:11:29] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"app start","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1","platform_account_id":"anonymous","platform_account_name":"UHCHl+w/902fXp4ugwLCtbTwkWrtV2m/tKdIUoiDjmZ1Q+ezH7im6YNpG6Ldgn0hboGDbVbkA097QpJ5ApxgUZau7r8v7BdHcH5dwktUd7M0Z4+68m+aAm5fWwb46D1O4qdG1cu1h8PiAgdqn1DBCb2cwJbCuf4GWBT9c7lnUvvJmOpvImTznGp/yni8OAAGEADR5JUf8i5toXAswWcSYKN5pZgIykroMgYUs6oBoXC0RBpxKiMTyqR9v37HSgcYUkwYY7EgTTDp/RR6h8oF3dyyRJrJuhri4snd8qlsp8cz5ZYwkA22PYE2xoquak/mKq7yeftVVXZnJdccr9LNig=="},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"42b9a590-d587-4e94-b11f-ec9d236bc8eb_9759ec80-34ce-4578-a3f1-6b176cebe2ad","distinct_id":"3233827edcb867f6b4b10f2975c364aa3e4bef21","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T07:11:28.9688198Z"},{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1","product_user_email":"a01092099573@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"42b9a590-d587-4e94-b11f-ec9d236bc8eb_9759ec80-34ce-4578-a3f1-6b176cebe2ad","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T07:11:29.1148714Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"42b9a590-d587-4e94-b11f-ec9d236bc8eb_9759ec80-34ce-4578-a3f1-6b176cebe2ad","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T07:11:29.1148714Z"}]}
+[2025-02-07 오후 4:11:31] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 3 queue item(s).
+[2025-02-07 오후 4:11:32] [Information] [Authentication] Request TraceId=a8e0ae4bc4e74c8d814b628b833d5893, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=basic
+[2025-02-07 오후 4:11:32] [Information] [Authentication] Request TraceId=4426f6bcdfcc4f71991d54245b51172b, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=plus
+[2025-02-07 오후 4:11:34] [Information] [Authentication] Request TraceId=951d2e02cc96467cac514b89a67ef692, Uri=https://api.umodeler.com/identity/api/v1/hub/info
+[2025-02-07 오후 4:11:37] [Information] [Authentication] Request TraceId=95824f31bcb2435882d309611c92ab69, Uri=https://api.umodeler.com/resources/api/v1/resources/user-resources?c=ko&current=1&pageSize=20
+[2025-02-07 오후 4:11:37] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnMessagePropertyValidate'.
+[2025-02-07 오후 4:11:37] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnIDPropertyValidate'.
+[2025-02-07 오후 4:11:37] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnTagPropertyValidate'.
+[2025-02-07 오후 4:11:37] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnIsDisplayableAgainPropertyValidate'.
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:12:04] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:12:06] [Debug] [Application] Initialize: isReloading=False
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:12:06] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:12:06] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:38:31] [Debug] [Application] Release: isReloading=True
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:38:31] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:38:31] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:38:40] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:38:43] [Debug] [Application] Initialize: isReloading=True
+[2025-02-07 오후 4:38:43] [Information] [Authentication] Request TraceId=1aa610260f89412bad145aa35189897d, Uri=https://api.umodeler.com/identity/api/v1/auth/verify
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:38:43] [Error] [HubService] 
+(Filename:  Line: 0)
+
+ArgumentException: An item with the same key has already been added. Key: com.tripolygon.umodeler-x
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <321eb2db7c6d43ea8fc39b54eaca3452>:0 
+  at Tripolygon.UModeler.Hub.HubService.RestoreState () [0x000a4] in <9ac8cf8e8e2d415b9f7940a61471d6a7>:0 
+Tripolygon.UModeler.Loggings.UMLogger:ErrorException(Exception, String[])
+Tripolygon.UModeler.Hub.HubService:RestoreState()
+Tripolygon.UModeler.Hub.<OnInitialize>d__38:MoveNext()
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(<OnInitialize>d__38&)
+Tripolygon.UModeler.Hub.HubService:OnInitialize(Boolean, Boolean)
+Tripolygon.UModeler.UI.ApplicationServiceBase:Application_Initialized(Object, ApplicationInitializedEventArgs)
+Tripolygon.UModeler.UI.Application:Initialize(Boolean, Boolean)
+Tripolygon.UModeler.Editor.UI.<>c:<.cctor>b__5_0()
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload()
+
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:38:43] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:38:43] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:38:45] [Debug] [Application] Release: isReloading=True
+[2025-02-07 오후 4:38:45] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:38:45] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:38:45] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:38:45] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:38:45] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:38:47] [Debug] [Authentication] SignedIn
+[2025-02-07 오후 4:38:47] [Information] [Authentication] Request TraceId=3abf440dc35c48dab14eeffced238157, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerHub/version?branch=main
+[2025-02-07 오후 4:38:47] [Debug] [HubAnalytics] OnSignIn
+[2025-02-07 오후 4:38:48] [Information] [Authentication] Request TraceId=243c0b2572cf499494c709e3113bbc8c, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=basic
+[2025-02-07 오후 4:38:49] [Information] [Authentication] Request TraceId=272bf401d5124539a12ea37643b72972, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=plus
+[2025-02-07 오후 4:38:49] [Information] [Authentication] Request TraceId=6ad87939db494a2791e53f9ce9179395, Uri=https://api.umodeler.com/identity/api/v1/hub/info
+[2025-02-07 오후 4:38:50] [Information] [Authentication] Request TraceId=7877315a7ab5488db15cf29d91bee5e0, Uri=https://api.umodeler.com/resources/api/v1/resources/user-resources?c=ko&current=1&pageSize=20
+[2025-02-07 오후 4:38:51] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnMessagePropertyValidate'.
+[2025-02-07 오후 4:38:51] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnIDPropertyValidate'.
+[2025-02-07 오후 4:38:51] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnTagPropertyValidate'.
+[2025-02-07 오후 4:38:51] [Warning] Please rename Method 'Tripolygon.UModeler.Hub.Notification.OnPropertyValidate' to 'OnIsDisplayableAgainPropertyValidate'.
+[2025-02-07 오후 4:38:53] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1","product_user_email":"a01092099573@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"abb27201-2865-4648-a8b9-c16adc954791_2a845daa-5746-460b-a5f3-3b0f9ed06b71","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T07:38:47.9708075Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"abb27201-2865-4648-a8b9-c16adc954791_2a845daa-5746-460b-a5f3-3b0f9ed06b71","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T07:38:47.9708075Z"}]}
+[2025-02-07 오후 4:38:54] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 2 queue item(s).
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:38:53] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 4:38:55] [Debug] [Application] Initialize: isReloading=True
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 4:38:55] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 4:38:55] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 5:04:55] [Debug] [Application] Release: isReloading=False
+[2025-02-07 오후 5:04:55] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2025-02-07 오후 5:04:55] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2025-02-07 오후 5:04:55] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2025-02-07 오후 5:04:55] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2025-02-07 오후 5:04:55] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.VSAttributionService
+[2025-02-07 오후 5:04:55] [Debug] [HubAnalytics] OnAppEnd
+[2025-02-07 오후 5:04:55] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2025-02-07 오후 5:04:55] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"app end","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"abb27201-2865-4648-a8b9-c16adc954791_2a845daa-5746-460b-a5f3-3b0f9ed06b71","distinct_id":"a01092099573@gmail.com","product_name":"UModeler Hub","product_version":"1.0.1","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-07T08:04:55.8888179Z"}]}
+[2025-02-07 오후 5:04:56] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 1 queue item(s).
+[2025-02-07 오후 5:04:56] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2025-02-07 오후 5:04:56] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubFlashService
+[2025-02-07 오후 5:04:56] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-07 오후 5:04:56] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubService
+[2025-02-07 오후 5:04:56] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-07 오후 5:04:56] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAuthentication

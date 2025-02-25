@@ -1,0 +1,479 @@
+[2025-02-14 오후 11:08:50] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:08:50] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-14 오후 11:08:50] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.InspectorService = Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IAnalyticsService = Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXModifierToolSetService = Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXApplicationService = Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.AuthenticationHost = Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:08:53] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:08:53] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IHubService = Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:08:53] [Debug] [Application] service: Tripolygon.UModelerX.Editor.ISelectedObjectService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Initialize: isReloading=False
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:09:04] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:09:04] [Debug] [UMXApplication] Initialize / 
+[2025-02-14 오후 11:09:04] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.UMXMultipleObjectEditorTool.OnChanged' to 'EdMeshSettings_PropertyChanged'.
+[2025-02-14 오후 11:09:04] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:09:04] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:09:04] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:09:04] [Debug] [UMXCommandServiceUtility] AssemblyReloadEvents_AfterAssemblyReload
+[2025-02-14 오후 11:09:04] [Debug] [UMXCommandService] UMXCommandService.Initialize
+[2025-02-14 오후 11:09:16] [Debug] [UMXCommandServiceUtility] EditorSceneManager_SceneClosing(scene: '', removingScene: 'True')
+[2025-02-14 오후 11:09:16] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: 8c0cefe5-458a-4be5-9cf2-05052e983388 : 43604
+[2025-02-14 오후 11:09:16] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:09:16] [Debug] [UMXCommandServiceUtility] EditorSceneManager_sceneClosed(scene: '')
+[2025-02-14 오후 11:09:16] [Debug] [Cache] 
+[2025-02-14 오후 11:09:16] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_ca969bb2-566e-4327-9b2f-9f5077d16f50 
+[2025-02-14 오후 11:09:16] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_ca969bb2-566e-4327-9b2f-9f5077d16f50 
+[2025-02-14 오후 11:09:16] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:09:16] [Debug] [UModelerXEditableMesh] Awake: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604: ActiveTrue
+[2025-02-14 오후 11:09:16] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.VertexTool.VertexChanged' to 'OnHideVertexOverlayChanged'.
+[2025-02-14 오후 11:09:16] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnShiftChanged'.
+[2025-02-14 오후 11:09:16] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnScaleChanged'.
+[2025-02-14 오후 11:09:16] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnRotationChanged'.
+[2025-02-14 오후 11:09:16] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to 'OnRecalculateTangentsChanged'.
+[2025-02-14 오후 11:09:16] [Warning] Please change the Access Modifiers for Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to preferably 'private (not public)'.
+[2025-02-14 오후 11:09:16] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:09:17] [Debug] [UModelerXEditableMesh] PrefabStatusChange: True : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:09:17] [Debug] [UMXObjectData] Load Stream 1998
+[2025-02-14 오후 11:09:18] [Debug] [Build] <color=gray>Build: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604 : topology False  </color>
+[2025-02-14 오후 11:09:18] [Debug] [Build] Build: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604 : Buid Pass.
+[2025-02-14 오후 11:09:22] [Debug] [UMXAnalytics] OnAppStart
+[2025-02-14 오후 11:09:22] [Debug] [UMXAnalytics] OnSignIn
+[2025-02-14 오후 11:09:23] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:09:23] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:09:24] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"app start","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1","platform_account_id":"14569362878867","platform_account_name":"jKt7Rh9Uu9tnKXxH82Z2eCgkpgdrxhjgyw4HqMnsm3imrgtTJXWKHsD4Jr+X7K+iv82oVBp959w+P7bkCLj3y53DuY3OkU1BLTxPiecTSk7nVT98k+M0raq/rtfSWt+GFh0cjlKYD/vu/aME0LgQ2juxjaV1ZiEsN5OduP6p8jOMnSNsMJRWWTWGnPtird9a0qcdxLM1PDrZy3jU9KO09xPYI9GrW84EwBDcz28Ce3JGzEaLQIIN40LJRwj5ShdqUHQ4d2cWgGdJHn1S1+8s+eGKhPY2LOKVr8UzW81W+OVKqZsux4iMh6BcCBQsSP22+djG3nxqC+KGcY6ul7h1bQ=="},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"f48427ee-0fc4-44f3-be49-09c143569df2_f2a2e31f-6c17-4187-b302-8e63335a6e61","distinct_id":"3233827edcb867f6b4b10f2975c364aa3e4bef21","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:09:22.3952252Z"},{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1","product_user_email":"a01092099573@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"f48427ee-0fc4-44f3-be49-09c143569df2_f2a2e31f-6c17-4187-b302-8e63335a6e61","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:09:22.6785008Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"f48427ee-0fc4-44f3-be49-09c143569df2_f2a2e31f-6c17-4187-b302-8e63335a6e61","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":640,"viewport_height":480,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:09:22.6785008Z"}]}
+[2025-02-14 오후 11:09:25] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sent 3 queue item(s).
+[2025-02-14 오후 11:10:29] [Debug] [UMXCommand] executed: Select Readme (Assets/Readme.asset)
+[2025-02-14 오후 11:12:50] [Debug] [UMXCommand] executed: Select Main Camera (GameObject in Main)
+[2025-02-14 오후 11:12:50] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Release: isReloading=True
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:26:49] [Debug] [UMXApplication] Release redoing True / Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:26:49] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:26:49] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:26:49] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:26:49] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:26:49] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:26:49] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:26:49] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_5c049f05-a803-468b-8ec3-904cc2a3cefe 
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:26:49] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:26:49] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:26:49] [Debug] [UMXCommandServiceUtility] AssemblyReloadEvents_BeforeAssemblyReload
+[2025-02-14 오후 11:26:49] [Debug] [Cache] UMXCommandServiceCache Create UMXCommandServiceCache_cf5046ad-f380-4853-8d6e-d347ceca17fa 
+[2025-02-14 오후 11:26:49] [Debug] [Cache] UMXCommandServiceCache.Backup 0 Commands
+[2025-02-14 오후 11:26:49] [Debug] [UMXCommandService] UMXCommandService.Release
+[2025-02-14 오후 11:26:50] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveTrue
+[2025-02-14 오후 11:26:54] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: 816e414a-8472-40ea-8cb5-4edb43c340b4 : 43604
+[2025-02-14 오후 11:26:55] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:26:57] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:26:57] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-14 오후 11:26:57] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.InspectorService = Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IAnalyticsService = Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXModifierToolSetService = Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXApplicationService = Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.AuthenticationHost = Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:26:58] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:26:58] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IHubService = Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:26:58] [Debug] [Application] service: Tripolygon.UModelerX.Editor.ISelectedObjectService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:27:01] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:27:01] [Debug] [Application] Initialize: isReloading=True
+[2025-02-14 오후 11:27:01] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:27:01] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:27:01] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:27:01] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-14 오후 11:27:01] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:27:01] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:27:01] [Debug] [UMXApplication] Initialize / 
+[2025-02-14 오후 11:27:01] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_5c049f05-a803-468b-8ec3-904cc2a3cefe 
+[2025-02-14 오후 11:27:02] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.VertexTool.VertexChanged' to 'OnHideVertexOverlayChanged'.
+[2025-02-14 오후 11:27:02] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnShiftChanged'.
+[2025-02-14 오후 11:27:02] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnScaleChanged'.
+[2025-02-14 오후 11:27:02] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnRotationChanged'.
+[2025-02-14 오후 11:27:02] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to 'OnRecalculateTangentsChanged'.
+[2025-02-14 오후 11:27:02] [Warning] Please change the Access Modifiers for Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to preferably 'private (not public)'.
+[2025-02-14 오후 11:27:02] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:27:02] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:27:02] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:27:02] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:27:02] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:27:02] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.UMXMultipleObjectEditorTool.OnChanged' to 'EdMeshSettings_PropertyChanged'.
+[2025-02-14 오후 11:27:02] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:27:02] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:02] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:27:02] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:27:02] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:27:02] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:27:02] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:27:02] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:27:02] [Debug] [UMXCommandServiceUtility] AssemblyReloadEvents_AfterAssemblyReload
+[2025-02-14 오후 11:27:02] [Debug] [Cache] UMXCommandServiceCache.Restore 0 Commands
+[2025-02-14 오후 11:27:02] [Debug] [Cache] UMXCommandServiceCache Dispose UMXCommandServiceCache_cf5046ad-f380-4853-8d6e-d347ceca17fa 
+[2025-02-14 오후 11:27:02] [Debug] [UMXCommandService] UMXCommandService.Initialize
+[2025-02-14 오후 11:27:04] [Debug] [UMXAnalytics] OnSignIn
+[2025-02-14 오후 11:27:08] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:12] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1","product_user_email":"a01092099573@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"818617ab-6f0e-4bef-93c0-e33185bebb49_9660841b-3357-408f-9b30-2ccb7c03d648","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:27:04.192529Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"818617ab-6f0e-4bef-93c0-e33185bebb49_9660841b-3357-408f-9b30-2ccb7c03d648","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:27:04.192529Z"}]}
+[2025-02-14 오후 11:27:12] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sent 2 queue item(s).
+[2025-02-14 오후 11:27:14] [Debug] [Application] Release: isReloading=True
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:27:14] [Debug] [UMXApplication] Release redoing True / Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:14] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:27:14] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:27:14] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:27:14] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:27:14] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:27:14] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:27:14] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_6d4f1440-d740-46e3-90bc-b3b48ae1e974 
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:27:14] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:27:14] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:27:14] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'ExitingEditMode')
+[2025-02-14 오후 11:27:14] [Debug] [Cache] UMXCommandServiceCache Create UMXCommandServiceCache_683dbe48-8237-4161-a9de-492ed56856f3 
+[2025-02-14 오후 11:27:14] [Debug] [Cache] UMXCommandServiceCache.Backup 0 Commands
+[2025-02-14 오후 11:27:14] [Debug] [UMXCommandService] UMXCommandService.Release
+[2025-02-14 오후 11:27:14] [Debug] [UMXCommandServiceUtility] AssemblyReloadEvents_BeforeAssemblyReload
+[2025-02-14 오후 11:27:15] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveFalse
+[2025-02-14 오후 11:27:18] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: 275e2344-6c84-4a4c-8d41-fb62f5b95adf : 43604
+[2025-02-14 오후 11:27:18] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.InspectorService = Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IAnalyticsService = Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXModifierToolSetService = Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXApplicationService = Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.AuthenticationHost = Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:27:20] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:27:20] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IHubService = Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:27:20] [Debug] [Application] service: Tripolygon.UModelerX.Editor.ISelectedObjectService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:27:23] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:27:23] [Debug] [UModelerXEditableMesh] PrefabStatusChange: False : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:27:23] [Debug] [Application] Initialize: isReloading=True
+[2025-02-14 오후 11:27:23] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:27:23] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:27:23] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:27:23] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-14 오후 11:27:23] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:27:23] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:27:23] [Debug] [UMXApplication] Initialize / 
+[2025-02-14 오후 11:27:23] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_6d4f1440-d740-46e3-90bc-b3b48ae1e974 
+[2025-02-14 오후 11:27:24] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.VertexTool.VertexChanged' to 'OnHideVertexOverlayChanged'.
+[2025-02-14 오후 11:27:24] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnShiftChanged'.
+[2025-02-14 오후 11:27:24] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnScaleChanged'.
+[2025-02-14 오후 11:27:24] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnRotationChanged'.
+[2025-02-14 오후 11:27:24] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to 'OnRecalculateTangentsChanged'.
+[2025-02-14 오후 11:27:24] [Warning] Please change the Access Modifiers for Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to preferably 'private (not public)'.
+[2025-02-14 오후 11:27:24] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:27:24] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:27:24] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:27:24] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:27:24] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:27:24] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.UMXMultipleObjectEditorTool.OnChanged' to 'EdMeshSettings_PropertyChanged'.
+[2025-02-14 오후 11:27:24] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:27:24] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:24] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:27:24] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:27:24] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:27:24] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:27:24] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:27:24] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:27:24] [Debug] [UMXCommandServiceUtility] AssemblyReloadEvents_AfterAssemblyReload
+[2025-02-14 오후 11:27:25] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:25] [Debug] [UMXCommandServiceUtility] EditorSceneManager_SceneClosing(scene: 'Main', removingScene: 'True')
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveFalse
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] OnDestroy: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: 966e408f-dbc0-402e-9a6d-247b78b0b21b : 43604
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:27:25] [Debug] [UMXCommandServiceUtility] EditorSceneManager_sceneClosed(scene: 'Main')
+[2025-02-14 오후 11:27:25] [Debug] [Cache] Main
+[2025-02-14 오후 11:27:25] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_8d3d821a-3033-4db7-8f21-ad576eb3a1ad 
+[2025-02-14 오후 11:27:25] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_8d3d821a-3033-4db7-8f21-ad576eb3a1ad 
+[2025-02-14 오후 11:27:25] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] Awake: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604: ActiveFalse
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveFalse
+[2025-02-14 오후 11:27:25] [Debug] [UModelerXEditableMesh] OnDestroy: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:27:26] [Debug] [UMXAnalytics] OnSignIn
+[2025-02-14 오후 11:27:31] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'EnteredPlayMode')
+[2025-02-14 오후 11:27:31] [Debug] [Cache] UMXCommandServiceCache.Restore 0 Commands
+[2025-02-14 오후 11:27:31] [Debug] [Cache] UMXCommandServiceCache Dispose UMXCommandServiceCache_683dbe48-8237-4161-a9de-492ed56856f3 
+[2025-02-14 오후 11:27:31] [Debug] [UMXCommandService] UMXCommandService.Initialize
+[2025-02-14 오후 11:27:31] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:34] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1","product_user_email":"a01092099573@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"64140c54-047c-4c51-b16a-3e3d4bcffabb_83672c7c-f300-46ff-83ce-dd554113069e","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:27:26.6366661Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"64140c54-047c-4c51-b16a-3e3d4bcffabb_83672c7c-f300-46ff-83ce-dd554113069e","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:27:26.6366661Z"}]}
+[2025-02-14 오후 11:27:34] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sent 2 queue item(s).
+[2025-02-14 오후 11:27:42] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'ExitingPlayMode')
+[2025-02-14 오후 11:27:42] [Debug] [Cache] UMXCommandServiceCache Create UMXCommandServiceCache_6515f05c-05c6-4651-9b96-1bb5038ecb90 
+[2025-02-14 오후 11:27:42] [Debug] [Cache] UMXCommandServiceCache.Backup 0 Commands
+[2025-02-14 오후 11:27:42] [Debug] [UMXCommandService] UMXCommandService.Release
+[2025-02-14 오후 11:27:42] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:42] [Debug] [UMXCommandServiceUtility] EditorSceneManager_SceneClosing(scene: 'Main', removingScene: 'True')
+[2025-02-14 오후 11:27:42] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: 70dc6cfc-116c-4f7c-bb9e-b61d6778295a : 43604
+[2025-02-14 오후 11:27:42] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:27:42] [Debug] [UMXCommandServiceUtility] EditorSceneManager_sceneClosed(scene: 'Main')
+[2025-02-14 오후 11:27:42] [Debug] [Cache] Main
+[2025-02-14 오후 11:27:42] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_5c1e8c9f-d453-4caf-9c3b-0870e5888d76 
+[2025-02-14 오후 11:27:42] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_5c1e8c9f-d453-4caf-9c3b-0870e5888d76 
+[2025-02-14 오후 11:27:42] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:27:42] [Debug] [UModelerXEditableMesh] Awake: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604: ActiveTrue
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:27:42] [Debug] [UModelerXEditableMesh] PrefabStatusChange: True : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:27:43] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'EnteredEditMode')
+[2025-02-14 오후 11:27:43] [Debug] [Cache] UMXCommandServiceCache.Restore 0 Commands
+[2025-02-14 오후 11:27:43] [Debug] [Cache] UMXCommandServiceCache Dispose UMXCommandServiceCache_683dbe48-8237-4161-a9de-492ed56856f3 
+[2025-02-14 오후 11:27:43] [Debug] [UMXCommandService] UMXCommandService.Initialize
+[2025-02-14 오후 11:27:43] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_6d4f1440-d740-46e3-90bc-b3b48ae1e974 
+[2025-02-14 오후 11:27:43] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:15] [Debug] [UMXCommand] executed: Add CameraResolution
+[2025-02-14 오후 11:29:15] [Debug] [UMXCommand] executed: Move Component(s)
+[2025-02-14 오후 11:29:15] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:21] [Debug] [UMXCommand] executed: Clear Selection
+[2025-02-14 오후 11:29:21] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:23] [Debug] [UMXDataPack] Save Passed. : Class
+[2025-02-14 오후 11:29:24] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:24] [Debug] [Application] Release: isReloading=True
+[2025-02-14 오후 11:29:24] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:29:24] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:29:24] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:29:24] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:29:24] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:29:24] [Debug] [UMXApplication] Release redoing True / Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:24] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:29:24] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:29:24] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:29:24] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:29:24] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:29:24] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:29:24] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_8ed9194b-7962-4e89-b919-c4f1d7480dd4 
+[2025-02-14 오후 11:29:24] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:29:24] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:29:24] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2025-02-14 오후 11:29:24] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"save_scene","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"64140c54-047c-4c51-b16a-3e3d4bcffabb_83672c7c-f300-46ff-83ce-dd554113069e","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:29:24.3192401Z"}]}
+[2025-02-14 오후 11:29:25] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sent 1 queue item(s).
+[2025-02-14 오후 11:29:25] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:29:25] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:29:25] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:29:25] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:29:25] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'ExitingEditMode')
+[2025-02-14 오후 11:29:25] [Debug] [Cache] UMXCommandServiceCache Create UMXCommandServiceCache_29c7c0f1-0a71-4e1e-98fe-151e99cfd6a1 
+[2025-02-14 오후 11:29:25] [Debug] [Cache] UMXCommandServiceCache.Backup 0 Commands
+[2025-02-14 오후 11:29:25] [Debug] [UMXCommandService] UMXCommandService.Release
+[2025-02-14 오후 11:29:26] [Debug] [UMXCommandServiceUtility] AssemblyReloadEvents_BeforeAssemblyReload
+[2025-02-14 오후 11:29:26] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveFalse
+[2025-02-14 오후 11:29:30] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: 6f9ee498-c289-4a0c-bb24-b9282b4bac2b : 43604
+[2025-02-14 오후 11:29:31] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.InspectorService = Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IAnalyticsService = Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXModifierToolSetService = Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.UMXApplicationService = Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.AuthenticationHost = Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:29:32] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:29:32] [Warning] Application Service 'Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService' is null.
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.IHubService = Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:29:32] [Debug] [Application] service: Tripolygon.UModelerX.Editor.ISelectedObjectService = Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:29:35] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:29:35] [Debug] [UModelerXEditableMesh] PrefabStatusChange: False : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:29:35] [Debug] [Application] Initialize: isReloading=True
+[2025-02-14 오후 11:29:35] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:29:35] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:29:35] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:29:35] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2025-02-14 오후 11:29:35] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:29:35] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:29:35] [Debug] [UMXApplication] Initialize / 
+[2025-02-14 오후 11:29:35] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_8ed9194b-7962-4e89-b919-c4f1d7480dd4 
+[2025-02-14 오후 11:29:36] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.VertexTool.VertexChanged' to 'OnHideVertexOverlayChanged'.
+[2025-02-14 오후 11:29:36] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnShiftChanged'.
+[2025-02-14 오후 11:29:36] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnScaleChanged'.
+[2025-02-14 오후 11:29:36] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.UVParamTool.UpdateProperties' to 'OnRotationChanged'.
+[2025-02-14 오후 11:29:36] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to 'OnRecalculateTangentsChanged'.
+[2025-02-14 오후 11:29:36] [Warning] Please change the Access Modifiers for Method 'Tripolygon.UModelerX.Editor.Modelings.LocalSettingsTool.BuidRecalculateTangents' to preferably 'private (not public)'.
+[2025-02-14 오후 11:29:36] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:29:36] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:29:36] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:29:36] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:29:36] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:29:36] [Warning] Please rename Method 'Tripolygon.UModelerX.Editor.UMXMultipleObjectEditorTool.OnChanged' to 'EdMeshSettings_PropertyChanged'.
+[2025-02-14 오후 11:29:36] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:29:36] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:36] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:29:36] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:29:36] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:29:36] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:29:36] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:29:36] [Debug] [Application] Service Initialize: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:29:36] [Debug] [UMXCommandServiceUtility] AssemblyReloadEvents_AfterAssemblyReload
+[2025-02-14 오후 11:29:37] [Debug] [UMXCommandServiceUtility] EditorSceneManager_SceneClosing(scene: 'Main', removingScene: 'True')
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveFalse
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] OnDestroy: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: e404ef24-874c-41ec-85c1-b9e0697162ca : 43604
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:29:37] [Debug] [UMXCommandServiceUtility] EditorSceneManager_sceneClosed(scene: 'Main')
+[2025-02-14 오후 11:29:37] [Debug] [Cache] Main
+[2025-02-14 오후 11:29:37] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_74d12e93-7be6-4b30-9cf1-e46cdc54ab86 
+[2025-02-14 오후 11:29:37] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_74d12e93-7be6-4b30-9cf1-e46cdc54ab86 
+[2025-02-14 오후 11:29:37] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] Awake: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604: ActiveFalse
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveFalse
+[2025-02-14 오후 11:29:37] [Debug] [UModelerXEditableMesh] OnDestroy: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:29:38] [Debug] [UMXAnalytics] OnSignIn
+[2025-02-14 오후 11:29:40] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'EnteredPlayMode')
+[2025-02-14 오후 11:29:40] [Debug] [Cache] UMXCommandServiceCache.Restore 0 Commands
+[2025-02-14 오후 11:29:40] [Debug] [Cache] UMXCommandServiceCache Dispose UMXCommandServiceCache_29c7c0f1-0a71-4e1e-98fe-151e99cfd6a1 
+[2025-02-14 오후 11:29:40] [Debug] [UMXCommandService] UMXCommandService.Initialize
+[2025-02-14 오후 11:29:40] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:46] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1","product_user_email":"a01092099573@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"a1e8068c-23e3-4602-967f-ba0bcf2221db_4b37c993-b08d-4a7c-bd6f-f266626a3e29","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:29:38.2269714Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"a1e8068c-23e3-4602-967f-ba0bcf2221db_4b37c993-b08d-4a7c-bd6f-f266626a3e29","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:29:38.2269714Z"}]}
+[2025-02-14 오후 11:29:46] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'ExitingPlayMode')
+[2025-02-14 오후 11:29:46] [Debug] [Cache] UMXCommandServiceCache Create UMXCommandServiceCache_b1069fb6-e7fb-4ff6-97ad-2f132401cbf4 
+[2025-02-14 오후 11:29:46] [Debug] [Cache] UMXCommandServiceCache.Backup 0 Commands
+[2025-02-14 오후 11:29:46] [Debug] [UMXCommandService] UMXCommandService.Release
+[2025-02-14 오후 11:29:46] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:46] [Debug] [UMXCommandServiceUtility] EditorSceneManager_SceneClosing(scene: 'Main', removingScene: 'True')
+[2025-02-14 오후 11:29:46] [Debug] [UModelerXEditableMesh] UModelerXEditableMesh: 16461bd6-a7bb-4478-bdc6-001d7cac8e63 : 43604
+[2025-02-14 오후 11:29:46] [Debug] [UModelerXEditableMesh] OnAfterDeserialize : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:29:46] [Debug] [UMXCommandServiceUtility] EditorSceneManager_sceneClosed(scene: 'Main')
+[2025-02-14 오후 11:29:46] [Debug] [Cache] Main
+[2025-02-14 오후 11:29:46] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_6746df94-67d1-47b8-a49e-1eca65540938 
+[2025-02-14 오후 11:29:46] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_6746df94-67d1-47b8-a49e-1eca65540938 
+[2025-02-14 오후 11:29:46] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:29:46] [Debug] [UModelerXEditableMesh] Awake: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604: ActiveTrue
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UModelerXEditableMesh] OnEnable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UMXEditor] Initialize: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:29:46] [Debug] [UModelerXEditableMesh] PrefabStatusChange: True : 0dcfab5b-6214-46e3-81ce-c51d7d109a5b : 43604
+[2025-02-14 오후 11:29:47] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sent 2 queue item(s).
+[2025-02-14 오후 11:29:47] [Debug] [UMXCommandServiceUtility] EditorApplication_PlayModeStateChanged(obj: 'EnteredEditMode')
+[2025-02-14 오후 11:29:47] [Debug] [Cache] UMXCommandServiceCache.Restore 0 Commands
+[2025-02-14 오후 11:29:47] [Debug] [Cache] UMXCommandServiceCache Dispose UMXCommandServiceCache_29c7c0f1-0a71-4e1e-98fe-151e99cfd6a1 
+[2025-02-14 오후 11:29:47] [Debug] [UMXCommandService] UMXCommandService.Initialize
+[2025-02-14 오후 11:29:47] [Debug] [Cache] UModelerXEditableMeshCache Destroy UModelerXEditableMeshCache_8ed9194b-7962-4e89-b919-c4f1d7480dd4 
+[2025-02-14 오후 11:31:35] [Debug] [UMXApplication] RefreshSelections. Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:31:38] [Debug] [Application] Release: isReloading=False
+[2025-02-14 오후 11:31:38] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXObjectService
+[2025-02-14 오후 11:31:38] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.SceneViews.UMXSceneViewService
+[2025-02-14 오후 11:31:38] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Views.UMXHubService
+[2025-02-14 오후 11:31:38] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.Zepeto.ZepetoExportService
+[2025-02-14 오후 11:31:38] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.AuthenticationHost
+[2025-02-14 오후 11:31:38] [Debug] [UMXApplication] Release redoing False / Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2025-02-14 오후 11:31:38] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.MultiObjects.MultipleObjectsEditor'
+[2025-02-14 오후 11:31:38] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Modelings.ModelingEditor'
+[2025-02-14 오후 11:31:38] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.UVMappings.UVEditor'
+[2025-02-14 오후 11:31:38] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Riggings.RiggingEditor'
+[2025-02-14 오후 11:31:38] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting2D.Painting2DEditor'
+[2025-02-14 오후 11:31:38] [Debug] [UMXEditor] Release: 'Tripolygon.UModelerX.Editor.Painting3D.Painting3DEditor'
+[2025-02-14 오후 11:31:38] [Debug] [Cache] UModelerXEditableMeshCache Create UModelerXEditableMeshCache_4322f15e-af07-45c3-97d4-8357dde89c60 
+[2025-02-14 오후 11:31:38] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXApplicationService
+[2025-02-14 오후 11:31:38] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXModifierToolSetService
+[2025-02-14 오후 11:31:38] [Debug] [UMXAnalytics] OnAppEnd
+[2025-02-14 오후 11:31:38] [Debug] [UMXAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2025-02-14 오후 11:31:38] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"app end","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"1.0.3-basic","playform_version":"Unity 6000.0.24f1"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"a1e8068c-23e3-4602-967f-ba0bcf2221db_4b37c993-b08d-4a7c-bd6f-f266626a3e29","distinct_id":"a01092099573@gmail.com","product_name":"UModeler X","product_version":"1.0.3-basic","platform_name":"Unity","platform_version":"6000.0.24f1","screen_width":1920,"screen_height":1080,"viewport_width":1080,"viewport_height":1920,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 10  (10.0.19045) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"Intel","unity_systeminfo_graphicsDeviceName":"Intel(R) HD Graphics 620","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"Intel(R) Core(TM) i3-7100U CPU @ 2.40GHz"},"timestamp":"2025-02-14T14:31:38.8174025Z"}]}
+[2025-02-14 오후 11:31:39] [Debug] [UMXAnalytics] PosthogClient.BatchAsync: Sent 1 queue item(s).
+[2025-02-14 오후 11:31:39] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.UMXAnalyticsService
+[2025-02-14 오후 11:31:39] [Debug] [Application] Service Release: Tripolygon.UModelerX.Editor.InspectorService
+[2025-02-14 오후 11:31:39] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2025-02-14 오후 11:31:39] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2025-02-14 오후 11:31:41] [Debug] [UModelerXEditableMesh] OnDisable: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b: 43604: ActiveTrue
+[2025-02-14 오후 11:31:41] [Debug] [UModelerXEditableMesh] OnDestroy: 0dcfab5b-6214-46e3-81ce-c51d7d109a5b
