@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "D:\\Unity_study\\Tiny Monster Academy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|d:\\unity_study\\tiny monster academy\\assets\\scripts\\administrator\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\administrator\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|d:\\unity_study\\tiny monster academy\\assets\\scripts\\ui\\nameinputui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\nameinputui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|D:\\Unity_study\\Tiny Monster Academy\\assets\\scripts\\administrator\\upgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\administrator\\upgrademanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|D:\\Unity_study\\Tiny Monster Academy\\assets\\scripts\\administrator\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\administrator\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|D:\\Unity_study\\Tiny Monster Academy\\assets\\scripts\\administrator\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\administrator\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|D:\\Unity_study\\Tiny Monster Academy\\assets\\scripts\\administrator\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\administrator\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|D:\\Unity_study\\Tiny Monster Academy\\assets\\scripts\\playerinfromation\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerinfromation\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|D:\\Unity_study\\Tiny Monster Academy\\assets\\scripts\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D97BD9F-0C04-0044-59FE-CC91EA3A50A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Administrator\\GameManager.cs",
-              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Administrator\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAApAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Testing.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Testing.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Testing.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Testing.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Testing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T08:11:54.894Z",
+              "WhenOpened": "2025-03-17T08:05:27.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NameInputUI.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\UI\\NameInputUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\NameInputUI.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\UI\\NameInputUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\NameInputUI.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:45:35.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpgradeManager.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\UpgradeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Administrator\\UpgradeManager.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\UpgradeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Administrator\\UpgradeManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:27:57.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Administrator\\UIManager.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Administrator\\UIManager.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T06:51:28.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\DataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Administrator\\DataManager.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\DataManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Administrator\\DataManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwFIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:54:08.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EconomyManager.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Administrator\\EconomyManager.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowBoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:26:50.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "ToolTip": "D:\\Unity_study\\Tiny Monster Academy\\Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerInfromation\\PlayerData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T08:35:32.607Z",
               "EditorCaption": ""
             }
           ]
